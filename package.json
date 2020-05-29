@@ -10,9 +10,6 @@
     "repository": "git://github.com/ryantrem/ActionTest.git",
     "license": "MIT",
     "licenseFilename": "LICENSE",
-    "readmeFilename": "README.md",
-    "publishConfig": {
-      "registry":"https://npm.pkg.github.com/ryantrem"
-    }
+    "readmeFilename": "README.md"
   }
   
