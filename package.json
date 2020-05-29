@@ -7,11 +7,12 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": "git://github.com/ryantrem/ActionTest.git",
     "license": "MIT",
     "licenseFilename": "LICENSE",
     "readmeFilename": "README.md",
     "publishConfig": {
-      "registry":"https://npm.pkg.github.com/"
+      "registry":"https://npm.pkg.github.com/ryantrem"
     }
   }
   
