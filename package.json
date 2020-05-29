@@ -9,6 +9,9 @@
     },
     "license": "MIT",
     "licenseFilename": "LICENSE",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com"
+    }
   }
   
