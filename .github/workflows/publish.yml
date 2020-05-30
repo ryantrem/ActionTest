@@ -7,13 +7,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.2.0
-      - uses: actions/setup-node@v1.4.2
+      - name: Checkout
+        uses: actions/checkout@v2.2.0
+      - name: Setup Node.js
+        uses: actions/setup-node@v1.4.2
         with:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@ryantrem'
-      - run: |
+      - name: Version & Publish Package
+        run: |
           npm version --no-git-tag-version ${GITHUB_REF/refs\/tags\//}
           npm publish
         working-directory: ./package
